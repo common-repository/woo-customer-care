@@ -1,0 +1,67 @@
+.woocc-metabox {
+    margin-top: 13px;
+}
+
+.woocc-metabox .woocc-notes {
+    max-height: 300px;
+    margin-bottom: 0 !important;
+    overflow-y: auto;
+}
+
+.woocc-notice {
+    padding: 10px;
+    margin-bottom: 13px;
+    background: #0085ba;
+    color: #ffffff;
+    position: relative;
+}
+
+.woocc-notice:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-width: 10px 10px 0 0;
+    border-style: solid;
+    border-color: #0085ba transparent;
+}
+
+.woocc-user-choose {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 13px;
+}
+
+.woocc-user-choose select {
+    width: 220px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.woocc-user-choose a.button {
+    height: 28px;
+    width: 28px !important;
+    text-align: center;
+    line-height: 26px;
+    padding: 0;
+    display: inline-block;
+    float: right;
+}
+
+.woocc-user-choose a.button i {
+    font-size: 16px;
+    font-weight: 400;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.woocc-text {
+    height: 28px;
+    line-height: 28px;
+}
